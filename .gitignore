@@ -1,0 +1,17 @@
+# Виртуальное окружение
+env/
+.venv/
+venv/
+
+# Кэш Python и Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Датасеты и модели (на всякий случай)
+*.csv
+*.parquet
+*.pkl
+*.joblib
+*.pth
+*.h5
