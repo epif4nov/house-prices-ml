@@ -1,14 +1,14 @@
-# Виртуальное окружение
-env/
+# Local environments and generated notebook/data outputs
+.ipynb_checkpoints/
+datasets/housing/housing.csv
+.idea/
+.vs/
+__pycache__/
+*.py[cod]
+.pytest_cache/
 .venv/
 venv/
-
-# Кэш Python и Jupyter
-.ipynb_checkpoints/
-__pycache__/
-*.pyc
-
-# Датасеты и модели (на всякий случай)
+env/
 *.csv
 *.parquet
 *.pkl
